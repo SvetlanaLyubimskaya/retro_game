@@ -2,6 +2,6 @@
 import Bowman from '../Characters/Bowman';
 
 test('name1', () => {
-    const bowman = new Bowman();
-    expect(bowman.defence).toBe(25);
+  const bowman = new Bowman();
+  expect(bowman.defence).toBe(25);
 });
